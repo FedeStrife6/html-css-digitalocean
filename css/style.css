@@ -1,5 +1,16 @@
 /* Style Options*/
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+li a {
+color: #073494;
+transition: 1s;
+text-decoration: none;
 
+}
 .jumbo-text {
   font-size: 24px;
 }
@@ -22,7 +33,7 @@
 .ms_navbar a {
   font-size: 15px;
   font-weight: 600;
-  color: #073494;
+  color: navy blue;
 }
 
 .ms_navbar a.ms_sign-btn { /* bottone */
@@ -71,6 +82,7 @@
   background-color: white;
   border-radius: 5px;
   padding: 20px 10px;
+  margin-top: 30px;
 }
 
 .ms_jumbo .ms_box button {
@@ -82,14 +94,30 @@
   background-color: #569aff;
 }
 
-.form {
-  background-color: white;
-  width: 150px;
-  height: 150px;
-}
-
-.logo-list {
+/* Begin logo List*/
+#logo-list {
   background-color: #f3f5f9;
-  width: 150px;
-  height: 150px;
+  width: 100%;
+  text-align: center;
 }
+#logo-list li {
+  width: calc(98% / 6);
+vertical-align: middle;
+}
+#logo-list img {
+
+}
+#logo-list h4 {
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: #6f7b97;
+  margin-top: 65px;
+}
+#logo-list a {
+  font-size: 17px;
+  margin-right: 10px;
+  color: #006aff;
+  text-decoration: none;
+  margin-bottom: 65px;
+
+/* End Logo List*/
