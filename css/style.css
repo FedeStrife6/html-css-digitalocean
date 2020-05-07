@@ -1,3 +1,9 @@
+/* Style Options*/
+
+.jumbo-text {
+  font-size: 24px;
+}
+/* Navbar */
 .ms_navbar {
   background-color: #fff;
   line-height: 70px;
@@ -39,13 +45,51 @@
   font-size: 20px;
   color: #2485fd;
 }
+/* End Navbar */
 
 /* jumbotron */
-
 .ms_jumbo {
   margin-top: 70px;
-  height: 400px;
-  background-image: url(../img/ms-jumbo.jpg);
+  height: 450px;
+  background-image: url(../img/home-jumbo.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.ms_jumbo h1 {
+  color: white;
+  font-size: 56px;
+  margin-top: 45px;
+}
+
+.ms_jumbo p {
+  font-size: 22px;
+  color: #bacbfe;
+}
+
+.ms_jumbo .ms_box {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 10px;
+}
+
+.ms_jumbo .ms_box button {
+  width: 100%;
+  border-color: white;
+}
+.ms_jumbo .ms_box button {
+  color: white;
+  background-color: #569aff;
+}
+
+.form {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+}
+
+.logo-list {
+  background-color: #f3f5f9;
+  width: 150px;
+  height: 150px;
 }
