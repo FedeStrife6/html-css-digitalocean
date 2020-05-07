@@ -4,11 +4,13 @@ ul {
 }
 a {
   text-decoration: none;
+  transition: .4s;
+
 }
-li a {
-color: #073494;
-transition: 1s;
-text-decoration: none;
+li a:hover {
+  color: #073494;
+  transition: .4s;
+  text-decoration: none;
 
 }
 .jumbo-text {
@@ -73,7 +75,7 @@ text-decoration: none;
   margin-top: 45px;
 }
 
-.ms_jumbo p {
+.ms_jumbo .ms_teaser p {
   font-size: 22px;
   color: #bacbfe;
 }
@@ -84,14 +86,25 @@ text-decoration: none;
   padding: 20px 10px;
   margin-top: 30px;
 }
+.ms_jumbo .ms_light-blue {
+  color: #3c65e2;
+}
 
 .ms_jumbo .ms_box button {
   width: 100%;
   border-color: white;
+  padding: 5px;
+  margin-top: 2px;
+  border-radius: 6px ;
 }
+
 .ms_jumbo .ms_box button {
   color: white;
   background-color: #569aff;
+}
+
+.ms_jumbo .ms_box p {
+  font-size: 12px;
 }
 
 /* Begin logo List*/
@@ -100,19 +113,26 @@ text-decoration: none;
   width: 100%;
   text-align: center;
 }
-#logo-list li {
-  width: calc(98% / 6);
-vertical-align: middle;
-}
-#logo-list img {
 
+#logo-list li {
+  width: calc(100% / 6 - 4px);
+  padding: 0 7px;
+  vertical-align: middle;
 }
+
+ @media screen and (max-width: 767px) {
+  #logo-list li {
+    width: calc( 100% / 2 - 4px )
+  }
+ }
+
 #logo-list h4 {
   letter-spacing: .05em;
   text-transform: uppercase;
   color: #6f7b97;
   margin-top: 65px;
 }
+
 #logo-list a {
   font-size: 17px;
   margin-right: 10px;
