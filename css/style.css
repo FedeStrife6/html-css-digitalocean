@@ -55,8 +55,9 @@ li a:hover {
   border: 1px solid #0069ff; /* blu vivido*/
 }
 .ms_burger-menu {
-  font-size: 20px;
+  font-size: 30px;
   color: #2485fd;
+  margin-right: 25px;
 }
 /* End Navbar */
 
@@ -135,9 +136,25 @@ li a:hover {
 
 #logo-list a {
   font-size: 17px;
-  margin-right: 10px;
   color: #006aff;
   text-decoration: none;
-  margin-bottom: 65px;
+  <!-- perche non riesco a dare del padding o del margin a A -->
+}
 
+/* Deploy */
+.ms_primary h3 {
+  font-size: 35px;
+  letter-spacing: -.9px;
+  padding-top: 60px;
+  margin: 0 0 16px;
+
+}
+.ms_primary p {
+  font-size: 20px;
+  color: #6f7b97;
+  margin: 0 0 60px;
+
+
+}
+/**/
 /* End Logo List*/
