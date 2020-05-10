@@ -13,15 +13,25 @@ li a:hover {
   text-decoration: none;
 
 }
-.jumbo-text {
-  font-size: 24px;
+.ms_section h3 {
+  font-size: 35px;
+  letter-spacing: -.9px;
+  padding-top: 60px;
+  margin: 0 0 16px;
 }
+.ms_section .ms-primary p {
+  font-size: 20px;
+  color: #6f7b97;
+  margin: 0 0 60px;
+}
+
 /* Navbar */
 .ms_navbar {
   background-color: #fff;
   line-height: 70px;
   text-transform: capitalize;
   margin: 0;
+  border-radius: 2px solid white;;
 }
 
 .ms_navbar img.logo {
@@ -69,6 +79,9 @@ li a:hover {
   background-size: cover;
   background-position: center;
 }
+.jumbo-text {
+  font-size: 24px;
+}
 
 .ms_jumbo h1 {
   color: white;
@@ -107,6 +120,7 @@ li a:hover {
 .ms_jumbo .ms_box p {
   font-size: 12px;
 }
+/* End Jumbotron */
 
 /* Begin logo List*/
 #logo-list {
@@ -120,13 +134,13 @@ li a:hover {
   padding: 0 7px;
   vertical-align: middle;
 }
-
+/* MEDIA QUERY*/
  @media screen and (max-width: 767px) {
   #logo-list li {
     width: calc( 100% / 2 - 4px )
   }
  }
-
+/* MEDIA QUERY */
 #logo-list h4 {
   letter-spacing: .05em;
   text-transform: uppercase;
@@ -142,19 +156,253 @@ li a:hover {
 }
 
 /* Deploy */
-.ms_primary h3 {
-  font-size: 35px;
-  letter-spacing: -.9px;
-  padding-top: 60px;
-  margin: 0 0 16px;
+
+.ms_primary .list_deploy {
+  display: inline-block;
 
 }
-.ms_primary p {
-  font-size: 20px;
+.ms_primary .ms_features {
+  float: right;
+}
+.ms_primary .ms_features p {
+  font-size: 10px;
   color: #6f7b97;
   margin: 0 0 60px;
+}
+.ms_primary .ms_features h4 {
+  padding-top: 15px;
+}
+.deploy {
+  display: inline-block;
+}
+.ms_features {
+  position: relative;
+  left:150px;
+}
 
+/* Begin Slider */
+.ms_slider {
+  max-width: 100%;
+  text-align: center;
+  background-color: #f3f5f9;
+}
+.slider .slider_main .single-slide {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slider .slider-main {
+  position: relative;
+}
+.slider .slider_main .arrow {
+  position: absolute;
+  font-size: 40px;
+  top: 0;
+}
+
+.slider .slider_main .single-slide {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slider .slider_main .arrow .arrow_left {
+  left: 0;
+}
+
+.slider .slider_main .arrow .arrow_right {
+  right: 0;
+}
+
+.slider h6 {
+  padding: 10px 0 5px;
+}
+
+.slider .slider-end li{
+  height: 9px;
+  width: 9px;
+  background-color: #0069ff;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.slider .slider-end {
+  padding-bottom: 50px;
+}
+
+/* End Slider */
+
+.ms_secondary .list_deploy {
+  display: inline-block;
 
 }
-/**/
+.ms_secondary.ms_features {
+  float: right;
+}
+.ms_secondary .ms_features p {
+  font-size: 15px;
+  color: #6f7b97;
+  margin: 0 0 60px;
+}
+.ms_secondary .ms_features h4 {
+  padding-top: 15px;
+}
+.deploy {
+  display: inline inline-block;
+}
+.ms_features {
+  position: relative;
+  left:150px;
+}
 /* End Logo List*/
+
+/* Begin Customers Section */
+.ms_customers {
+height: 410px;
+background-color: #031b4e;
+background-size: cover;
+}
+
+.ms_customers h3 {
+  color: white;
+  font-size: 36px;
+  margin-top: 40px;
+}
+.ms_customers p {
+  font-size: 13px;
+}
+.ms_customers .wrap-text {
+  font-size: 13px;
+}
+.ms_customers table td {
+
+}
+
+
+/* End Customers Section */
+
+/* Begin Second Slider */
+.ms_second-slider {
+  background-color: #f3f5f9;
+  height: 800px;
+
+}
+.slider .slider_main .box-quote {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slider .slider-main {
+  position: relative;
+}
+.slider .slider_main .arrow {
+  position: absolute;
+  font-size: 40px;
+  top: 0;
+}
+.slider .slider_main .box-quote {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  width: 600px;
+  height: 400px;
+  margin-top: 80px;
+  border-radius: 5px;
+  border: 1px solid #e5e8ed;
+  background-color: #fff;
+  padding: 32px;
+}
+.slider .slider_main .box-quote img {
+  padding: 40px 150px;
+}
+
+.slider .slider_main .arrow .arrow_left {
+  left: 0;
+}
+
+.slider .slider_main .arrow .arrow_right {
+  right: 0;
+}
+
+.slider .slider-end li{
+  height: 9px;
+  width: 9px;
+  background-color: #0069ff;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.slider .slider-end {
+  padding-bottom: 50px;
+}
+.slider .box-quote p {
+  color: black;
+  color: rgba(3,27,78,.7);
+  font-size: 18px;
+}
+/* End Slider */
+
+}/* End Main */
+
+/* FOOTER */
+
+/* End Main */
+.ms_top-footer {
+  margin-top: 70px;
+  background-color: #031c4e;
+  background-size: cover;
+  background-position: center;
+}
+.ms_top-footer h3 {
+  color: #fff;
+  font-size: 35px;
+  margin-top: 40px;
+  padding: 30px;
+  }
+.ms_top-footer p {
+  color: black;
+  margin: 0 0 16px;
+}
+.ms_top-footer a.ms_button {
+  font-size: 15px;
+  padding: 10px;
+  color: #white;
+  border: 1px solid #0069ff;
+  border-radius: 5px;
+  transition: all .3s ease-in-out;
+}
+.ms_top-footer {
+  background-image: url(../img/home-jumbo.jpg);
+  padding: 70px 0;
+  color: #7a859d;
+  font-weight: 500;
+  }
+
+.ms_bottom-footer {
+  background-color: #010f28;
+  padding-top: 50px;
+}
+
+.ms_footer_social_list{
+    padding: 0;
+  }
+.ms_footer_social_list li{
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+  }
+.ms_footer_social_list li a{
+    color: #7a859d;
+  }
+.ms_menu_list{
+    list-style-type: none;
+  }
+.ms_menu_list li{
+    padding: 5px 0;
+  }
+.ms_menu_list li a{
+    color: #a6adbd;
+  }
+  /* End Footer */
